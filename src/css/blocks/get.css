@@ -1,0 +1,42 @@
+.get {
+  background-color: var(--bg-light-coral);
+
+  .container {
+    background-image: url('../../image/get/get@1x.png');
+    background-repeat: no-repeat;
+    background-position: left bottom -23px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding-top: 83px;
+    padding-bottom: 83px;
+
+    @media (min-width: 768px) {
+      gap: 52px;
+    }
+
+    @media (min-width: 1280px) {
+      background-position: left bottom;
+      gap: 200px;
+    }
+
+    @media (min-width: 1440px) {
+      gap: 300px;
+    }
+  }
+
+  .title {
+    color: var(--text-sacramento-green);
+  }
+
+  a {
+    color: var(--text-sacramento-green);
+    border: 2px solid var(--text-sacramento-green);
+    padding: 8px 28px;
+    border-radius: 20px;
+    font-weight: 600;
+  }
+}

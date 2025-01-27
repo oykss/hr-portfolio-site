@@ -1,0 +1,29 @@
+:root {
+  /* PRIMARY */
+  --midnight-green: #014e56;
+  --light-coral: #f67e7e;
+  --white: #fff;
+
+  /* SECONDARY */
+  --rapture-blue: #79c8c7;
+  --police-blue: #2c6269;
+  --deep-green: #004047;
+  --sacramento-green: #012f34;
+  --dark-green: #002529;
+
+  /* TEXT */
+  --text-white: #fff;
+  --text-light-coral: #f67e7e;
+  --text-sacramento-green: #012f34;
+
+  /* FONT FAMILY */
+  --sans-serif: 'Livvic', sans-serif;
+  --italic: 'Livvic', italic;
+
+  /* BACKGROUND COLOR */
+  --bg-midnight-green: #014e56;
+  --bg-sacramento-green: #012f34;
+  --bg-deep-green: #004047;
+  --bg-light-coral: #f67e7e;
+  --bg-dark-green: #002529;
+}

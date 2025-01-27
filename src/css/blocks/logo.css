@@ -1,0 +1,11 @@
+.logo {
+  display: flex;
+  fill: var(--text-white);
+
+  .icon {
+    @media (min-width: 768px) {
+      width: 160px;
+      height: 40px;
+    }
+  }
+}
